@@ -1,0 +1,8 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card--list{
+    margin-top: 40px;
+}

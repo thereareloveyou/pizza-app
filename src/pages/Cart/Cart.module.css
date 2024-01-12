@@ -1,0 +1,49 @@
+.cart-wrapper {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.input-promo {
+  margin-top: 35px;
+  max-width: 520px;
+  position: relative;
+}
+
+.promo {
+  width: 480px;
+  border-radius: 100px;
+}
+
+.enter__promo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+}
+
+.point p {
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.info--order{
+  margin-top: 30px;
+  width: 100%;
+}
+
+hr{
+  margin: 20px 0px;
+  border: 1px solid var(--hr-color);
+}
+
+.submit__order{
+  margin-top: 75px;
+}

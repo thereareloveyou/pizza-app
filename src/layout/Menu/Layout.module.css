@@ -1,0 +1,89 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.menu {
+  min-width: 240px;
+  border-right: 1px solid var(--separator-color);
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.user__info {
+  margin-top: 20px;
+}
+
+.info__name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+.info__email {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-secondary-color);
+}
+
+.menu__nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  margin-top: 50px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.link span {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.button_exit {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 55px;
+  min-width: 130px;
+  min-height: 45px;
+}
+
+.outlet {
+  width: 100%;
+  padding: 40px 60px;
+}

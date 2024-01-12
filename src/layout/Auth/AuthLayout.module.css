@@ -1,0 +1,7 @@
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    justify-items: center;
+    align-content: center;
+}
